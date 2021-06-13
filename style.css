@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
 
 #logo {
   width: 268px;
@@ -29,12 +29,12 @@ header {
 .drop-menu {
   display: none;
   background-color: white;
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
   margin-left: -100px;
- padding-right: 20px;
- line-height: 40px;
- box-shadow: 0px 0px 10px #ddd;
+  padding-right: 20px;
+  line-height: 40px;
+  box-shadow: 0px 0px 10px #ddd;
 }
 .menu-item:hover .drop-menu {
   display: flex;
@@ -51,58 +51,63 @@ header {
 .drop-menu-item:hover {
   color: rgb(0, 179, 155);
 }
-.logo1{
+.logo1 {
   font-family: "Work Sans", Arial, sans-serif;
-  font-size: 34px; 
-  Font-weight: 300px;
-  Line-height: 44.2px ;
+  font-size: 34px;
+  font-weight: 300px;
+  line-height: 44.2px;
   color: rgb(0, 179, 155);
   text-align: center;
   padding-top: 100px;
 }
-.second-section{
+.second-section {
   display: flex;
   justify-content: space-around;
   max-width: 1015px;
   margin: 0 auto;
-  
 }
 .second-section p {
-  font: 400px 16px roboto,arial,sans-serif;
-  Line-height: 28px;
+  font: 400px 16px roboto, arial, sans-serif;
+  line-height: 28px;
   color: rgb(116, 116, 116);
   text-align: justify;
   padding: 10px;
 }
-.third-section{
+.third-section {
   display: flex;
   justify-content: space-between;
   margin: 0px 180px;
-
 }
-.patients{
-  background-color:#00CCB1 ;
+.sel {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 24px;
+  white-space: pre;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline solid rgb(155 , 155, 155);
   
 }
+.patients {
+  background-color: #00ccb1;
+}
 
-.doctors{
-  background-color:#3D83DF;
+.doctors {
+  background-color: #3d83df;
 }
-.clinics{
-  background-color:#1B2734 ;
+.clinics {
+  background-color: #1b2734;
 }
-.third-section div{
+.third-section div {
   padding: 30px;
-  margin:20px 10px;
+  margin: 20px 10px;
   border-radius: 10px;
-  width: 312px;
-  height: 345px;
-  color:white;
-  font-family: "work sans",Arial, sans-serif;
+  width: 300px;
+  height: 290px;
+  color: white;
+  font-family: "work sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 28px;
-
-
 }
 .container {
   display: flex;
@@ -142,17 +147,17 @@ header {
 .items:hover {
   box-shadow: 0 5px 10px 0 #d3cfc9;
 }
-.parag{
+.parag {
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 20px;
-  Font-weight: 250px;
+  font-weight: 250px;
   line-height: 33.8px;
-   color: rgb(0, 179, 155);
-   display: block;
-   letter-spacing: -0.3px;
-   display: flex;
-   max-width: 1015px;
-   margin: 0 200px;
+  color: rgb(0, 179, 155);
+  display: block;
+  letter-spacing: -0.3px;
+  display: flex;
+  max-width: 1015px;
+  margin: 0 200px;
 }
 .brands-logos {
   display: flex;
@@ -160,21 +165,156 @@ header {
   align-items: center;
   font-size: 0;
   width: 50%;
-  list-style-type:  none;
-  list-style-position: outside ;
+  list-style-type: none;
+  list-style-position: outside;
   margin-left: 430px;
-  margin-top: -90px;
+  margin-top: -80px;
   margin-bottom: 50px;
   justify-content: space-between;
-
 }
 .brands-logos:hover li {
   background-color: #ababab;
 }
-.fifth-section{
+.fifth-section {
   height: 600px;
   width: 1350px;
   background-image: url(https://www.docplanner.com/img/logo.png);
+  background-position: bottom left;
+  background-size: 450px;
   background-repeat: no-repeat;
-  background-color: rgba(0, 179, 155, 0.3)
+  background-color: rgba(0, 179, 155, 0.1);
+  padding-top: 50px;
+}
+.grid h1 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 300px;
+  line-height: 44.2px;
+  display: block;
+  letter-spacing: -0.3px;
+  display: flex;
+  max-width: 1015px;
+  margin: 0 120px;
+  color: #00ccb1;
+  justify-content: space-between;
+}
+.grid p {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300px;
+  line-height: 24px;
+  display: block;
+  letter-spacing: -0.3px;
+  max-width: 1015px;
+  margin: 0 120px;
+  padding-top: 30px;
+  color: black;
+  justify-content: space-between;
+}
+.grid-5 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin-top: -200px;
+  padding-left: 600px;
+}
+.box-5 {
+  display: block;
+  height: 220px;
+  width: 240px;
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-left: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.box-5 img {
+  padding-left: 90px;
+}
+.box-5 h3 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300px;
+  line-height: 24px;
+  display: block;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #00ccb1;
+}
+.box-5 p {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  display: block;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #747474;
+}
+.box-6 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.box-6 h1 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300px;
+  line-height: 39px;
+  display: block;
+  letter-spacing: -0.3px;
+  color: #00ccb1;
+}
+.box-6 p {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  letter-spacing: -0.3px;
+  color: #747474;
+}
+.box-7 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.box-7 h1 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300px;
+  display: block;
+  letter-spacing: -0.3px;
+  color: #333333;
+}
+.but {
+  background: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 210px;
+  height: 50px;
+  background-color: #3d83df;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.but:hover {
+  background-color: #3d93df;
+}
+.box-8 {
+  border-top: 1px solid rgba(150, 150, 150, 0.4);
+  text-align: center;
+}
+.box-8 P {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  display: block;
+  letter-spacing: -0.3px;
+  color: #747474;
+  position: relative;
+}
+.box-8 a{
+  color: #3d83df;
 }
